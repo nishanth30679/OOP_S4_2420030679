@@ -15,16 +15,16 @@ public class DuplicateElements {
 				}
 				
 				for(int i=0;i<n;i++) {
-				boolean dub= false	;
+				boolean dublicate= false	;
 				for(int j=0;j<i;j++)
 				{
 					if(arr[i]==arr[j])
 					{
-						dub=true;
+						dublicate=true;
 						break;
 					}
 				}
-				if(!dub)
+				if(!dublicate)
 				{
 					System.out.print(arr[i ]);
 				}
@@ -34,3 +34,4 @@ public class DuplicateElements {
 
 
 }
+
